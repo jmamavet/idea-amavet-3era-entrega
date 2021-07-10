@@ -1,0 +1,108 @@
+/*ESTILOS GENERALES*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.body{
+    background-color: #202124;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+h1{
+    color: #dc3545;
+}
+
+p{
+    margin-bottom: 0px;
+}
+
+.articles{
+    color: #e8eaed;
+    font-weight: 400;
+    line-height: 1.6;
+}
+
+/*ESTILOS HEADER*/
+
+.banner{
+    max-width: 100%;
+}
+
+
+.menuLogo:hover{
+    animation-name: menuLogo;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes menuLogo{
+    25%{
+        transform: rotate(90deg);
+    }
+
+    50%{
+        transform: rotate(180deg);
+    }
+
+    75%{
+        transform: rotate(270deg);
+    }
+
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+.nav-link:hover {
+    background-color: #dc3545;    
+}
+
+/* ESTILOS FOOTER */
+
+.footer__logo{
+    height: 45px;
+    width: auto;
+}
+
+/*ESTILOS CONTENIDO*/
+
+/******************************** INDEX ********************************/
+.imagenIndex{
+    max-width: 100%;
+}
+
+.fechaShowIndex{    
+    color: #e8eaed;
+    font-weight: 800;
+    line-height: 1.6;  
+    padding-right: 5%;
+}
+
+/******************************** SHOWS Y NOTICIAS ********************************/
+.showNoticia__fecha{
+    font-style: italic;
+    font-weight: 800;
+    color: #e8eaed;
+}
+
+.imagenShows{
+    max-width: 100%;
+}
+
+/******************************** CONTACTO ********************************/
+
+.mb-3{
+    color: #e8eaed;
+}
+
+.inputLabel{
+    color: #e8eaed;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+
+
+
